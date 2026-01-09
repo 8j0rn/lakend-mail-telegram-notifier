@@ -1,0 +1,542 @@
+# Copyright (C) 2024 Lakend Team
+# This file is distributed under the same license as the Lakend Notifier plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Lakend Notifier 1.1.0\n"
+"Report-Msgid-Bugs-To: https://lakend.ru/\n"
+"POT-Creation-Date: 2024-12-20 12:00+0300\n"
+"PO-Revision-Date: 2025-12-04 03:11+0300\n"
+"Last-Translator: 8j0rn <8j0rn@lakend.ru>\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Domain: lakend-notifier\n"
+"X-Generator: Poedit 3.5\n"
+
+#: lakend-mail-telegram-notifier.php:69
+msgid ""
+"For the Lakend Notifier plugin to work, PHP version %s or higher is "
+"required."
+msgstr "Для работы плагина Lakend Notifier требуется версия PHP %s или выше."
+
+#: lakend-mail-telegram-notifier.php:78
+msgid ""
+"For the Lakend Notifier plugin to work, WordPress version %s or higher is "
+"required."
+msgstr ""
+"Для работы плагина Lakend Notifier требуется WordPress версии %s или выше."
+
+#: lakend-mail-telegram-notifier.php:82
+msgid "Activation Error"
+msgstr "Ошибка активации"
+
+#: lakend-mail-telegram-notifier.php:191
+msgid "Test"
+msgstr "Тест"
+
+#: lakend-mail-telegram-notifier.php:195 admin/partials/settings-page.php:48
+msgid "Send test"
+msgstr "Отправить тест"
+
+#: lakend-mail-telegram-notifier.php:216
+msgid "Connection error"
+msgstr "Ошибка подключения"
+
+#: lakend-mail-telegram-notifier.php:230 includes/class-admin.php:103
+#: includes/class-admin.php:109
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-core.php:150 includes/class-core.php:259
+msgid "Successfully sent"
+msgstr "Успешно отправлено"
+
+#: includes/class-core.php:152
+msgid "Sending error"
+msgstr "Ошибка отправки"
+
+#: includes/class-channel-email.php:49
+msgid "Email recipients not specified"
+msgstr "Получатели электронной почты не указаны"
+
+#: includes/class-channel-telegram.php:37
+msgid "Telegram bot token not specified"
+msgstr "Токен бота Telegram не указан"
+
+#: includes/class-channel-telegram.php:41
+msgid "Telegram chat ID not specified"
+msgstr "Идентификатор чата Telegram не указан"
+
+#: includes/class-channel-telegram.php:103
+msgid "Unknown Telegram API error"
+msgstr "Неизвестная ошибка API Telegram"
+
+#: includes/class-admin.php:99
+msgid "Lakend Notifier"
+msgstr "Lakend Уведомитель Почта+Телеграмм"
+
+#: includes/class-admin.php:115 admin/partials/logs-page.php:14
+msgid "Sending Logs"
+msgstr "Отправка журналов"
+
+#: includes/class-admin.php:121 admin/partials/stats-page.php:14
+msgid "Statistics"
+msgstr "Статистика"
+
+#: includes/class-admin.php:155
+msgid "Basic Settings"
+msgstr "Основные настройки"
+
+#: includes/class-admin.php:160
+msgid "Email Settings"
+msgstr "Настройки электронной почты"
+
+#: includes/class-admin.php:165
+msgid "Telegram Settings"
+msgstr "Настройки Телеграма"
+
+#: includes/class-admin.php:192
+msgid "Enable logging"
+msgstr "Включить ведение журнала"
+
+#: includes/class-admin.php:195
+msgid "Save history of all sent notifications"
+msgstr "Сохранять историю всех отправленных уведомлений"
+
+#: includes/class-admin.php:201
+msgid "Intercept all wp_mail()"
+msgstr "Перехватывать все wp_mail())"
+
+#: includes/class-admin.php:204
+msgid ""
+"Automatically intercept all calls to the standard WordPress wp_mail() "
+"function"
+msgstr ""
+"Автоматически перехватывать все вызовы стандартной функции WordPress "
+"wp_mail()"
+
+#: includes/class-admin.php:214
+msgid "Sender email"
+msgstr "Отправитель электронной почты"
+
+#: includes/class-admin.php:217
+msgid "Email address that will be indicated as sender"
+msgstr "Адрес электронной почты, который будет указан в качестве отправителя"
+
+#: includes/class-admin.php:224
+msgid "Sender name"
+msgstr "Имя отправителя"
+
+#: includes/class-admin.php:227
+msgid "Name that will be indicated as sender"
+msgstr "Имя, которое будет указано в качестве отправителя"
+
+#: includes/class-admin.php:237
+msgid "Telegram Bot Token"
+msgstr "Токен Telegram-бота"
+
+#: includes/class-admin.php:240
+#, php-format
+msgid "Get from %s"
+msgstr "Получить от %s"
+
+#: includes/class-admin.php:247
+msgid "Telegram Chat ID"
+msgstr "Идентификатор чата Telegram"
+
+#: includes/class-admin.php:250
+msgid "Chat or channel ID (can be obtained from @userinfobot)"
+msgstr "Идентификатор чата или канала (можно получить у @userinfobot))"
+
+#: includes/class-admin.php:355
+#, php-format
+msgid "Lakend Notifier plugin is not fully configured. %s"
+msgstr "Плагин Lakend Notifier настроен не полностью.%s"
+
+#: includes/class-admin.php:358
+msgid "Go to settings"
+msgstr "Перейти в настройки"
+
+#: admin/partials/settings-page.php:13
+msgid "Lakend Mail-Telegram Notifier"
+msgstr "Lakend Уведомитель Почта+Телеграмм"
+
+#: admin/partials/settings-page.php:14
+msgid "Centralized notification system for your site"
+msgstr "Централизованная система уведомлений для вашего сайта"
+
+#: admin/partials/settings-page.php:21
+msgid "Settings saved!"
+msgstr "Настройки сохранены!"
+
+#: admin/partials/settings-page.php:26
+msgid "Basic"
+msgstr "Базовый"
+
+#: admin/partials/settings-page.php:29 admin/partials/test-page.php:178
+msgid "Email"
+msgstr "Электронная почта"
+
+#: admin/partials/settings-page.php:35
+msgid "Advanced"
+msgstr "Передовой"
+
+#: admin/partials/settings-page.php:46
+msgid "Telegram Testing"
+msgstr "Тестирование Телеграмм"
+
+#: admin/partials/logs-page.php:20
+msgid "Search in logs:"
+msgstr "Поиск в журналах:"
+
+#: admin/partials/logs-page.php:26 admin/partials/test-page.php:175
+msgid "Date"
+msgstr "Дата"
+
+#: admin/partials/logs-page.php:27 includes/class-core.php:252
+msgid "Subject"
+msgstr "Предмет"
+
+#: admin/partials/logs-page.php:28 includes/class-core.php:254
+msgid "Type"
+msgstr "Тип"
+
+#: admin/partials/logs-page.php:29
+msgid "Channels"
+msgstr "Каналы"
+
+#: admin/partials/logs-page.php:31
+msgid "Actions"
+msgstr "Действия"
+
+#: admin/partials/logs-page.php:54 admin/partials/stats-page.php:44
+msgid "Successful"
+msgstr "Успешный"
+
+#: admin/partials/logs-page.php:56
+msgid "Error"
+msgstr "Ошибка"
+
+#: admin/partials/logs-page.php:62
+msgid "View"
+msgstr "Вид"
+
+#: admin/partials/logs-page.php:65
+msgid "Resend"
+msgstr "Отправить повторно"
+
+#: admin/partials/logs-page.php:70
+msgid "No logs found"
+msgstr "Журналы не найдены"
+
+#: admin/partials/logs-page.php:74
+msgid "Show more"
+msgstr "Показать больше"
+
+#: admin/partials/stats-page.php:21
+msgid "Today"
+msgstr "Сегодня"
+
+#: admin/partials/stats-page.php:25
+msgid "Last 7 days"
+msgstr "Последние 7 дней"
+
+#: admin/partials/stats-page.php:29
+msgid "Last 30 days"
+msgstr "Последние 30 дней"
+
+#: admin/partials/stats-page.php:33
+msgid "All time"
+msgstr "Все время"
+
+#: admin/partials/stats-page.php:40
+msgid "Total"
+msgstr "Общий"
+
+#: admin/partials/stats-page.php:48 admin/partials/test-page.php:203
+msgid "Failed"
+msgstr "Неуспешный"
+
+#: admin/partials/stats-page.php:52
+msgid "Success Rate"
+msgstr "Уровень успеха"
+
+#: admin/partials/stats-page.php:59
+msgid "Sending Statistics"
+msgstr "Отправка статистики"
+
+#: admin/partials/stats-page.php:65
+msgid "Refresh"
+msgstr "Обновить"
+
+#: admin/partials/stats-page.php:71
+msgid "No statistics data"
+msgstr "Нет статистических данных"
+
+#: admin/js/admin.js:64
+msgid "Sending..."
+msgstr "Отправка."
+
+#: admin/js/admin.js:65
+msgid "Test notification sent!"
+msgstr "Уведомление о тестировании отправлено!"
+
+#: admin/js/admin.js:66 includes/class-ajax-handler.php:34
+msgid "Error sending test notification"
+msgstr "Ошибка отправки тестового уведомления"
+
+#: admin/js/admin.js:67
+msgid "Are you sure you want to clear the logs?"
+msgstr "Вы уверены, что хотите очистить журналы?"
+
+#: includes/class-ajax-handler.php:30
+msgid "Test notification sent successfully"
+msgstr "Тестовое уведомление отправлено успешно"
+
+#: includes/class-ajax-handler.php:57
+msgid "Telegram connection successful"
+msgstr "Подключение к Telegram успешно"
+
+#: includes/class-ajax-handler.php:61
+msgid "Telegram connection error"
+msgstr "Ошибка подключения Телеграма"
+
+#: includes/class-ajax-handler.php:88
+msgid "Logs cleared successfully"
+msgstr "Журналы успешно очищены"
+
+#: includes/class-ajax-handler.php:92
+msgid "Error clearing logs"
+msgstr "Ошибка очистки журналов"
+
+#: includes/class-ajax-handler.php:120
+msgid "Logs exported successfully"
+msgstr "Журналы успешно экспортированы"
+
+#: includes/class-ajax-handler.php:124
+msgid "Error exporting logs"
+msgstr "Ошибка экспорта журналов"
+
+#: includes/class-admin.php:231 admin/partials/test-page.php:23
+msgid "Sending Mode"
+msgstr "Режим отправки"
+
+#: includes/class-admin.php:236 admin/partials/test-page.php:29
+msgid "Send to both email and Telegram"
+msgstr "Отправляйте как на почту, так и в Telegram"
+
+#: includes/class-admin.php:239
+msgid "Send to email, notify in Telegram about sending"
+msgstr "Отправить на почту, уведомить в Telegram об отправке"
+
+#: includes/class-admin.php:242
+msgid "Choose how notifications should be sent"
+msgstr "Выберите способ отправки уведомлений"
+
+#: includes/class-core.php:187
+msgid "Email successfully sent"
+msgstr "Письмо успешно отправлено"
+
+#: includes/class-core.php:189
+msgid "Email sending error"
+msgstr "Ошибка отправки электронной почты"
+
+#: includes/class-core.php:200
+msgid "Telegram notification sent"
+msgstr "Уведомление в Telegram отправлено"
+
+#: includes/class-core.php:202
+msgid "Telegram notification error"
+msgstr "Ошибка уведомления в Telegram"
+
+#: includes/class-core.php:248
+msgid "EMAIL SENT NOTIFICATION"
+msgstr "УВЕДОМЛЕНИЕ ПО EMAIL ОТПРАВЛЕНО"
+
+#: includes/class-core.php:259
+msgid "Sending failed"
+msgstr "Отправка не удалась"
+
+#: includes/class-core.php:265
+msgid "Sent at"
+msgstr "Отправлено в"
+
+#: includes/class-core.php:270
+msgid "Recipients"
+msgstr "Получатели"
+
+#: includes/class-core.php:276
+msgid "Brief content"
+msgstr "Краткое содержание"
+
+#: includes/class-core.php:280
+msgid "Site"
+msgstr "Сайт"
+
+#: admin/partials/test-page.php:13
+msgid "Test Page"
+msgstr "Тестовая страница"
+
+#: admin/partials/test-page.php:14
+msgid "Test the operation of the notification system in different modes"
+msgstr "Протестируйте работу системы уведомлений в разных режимах"
+
+#: admin/partials/test-page.php:19
+msgid "Current Settings"
+msgstr "Текущие настройки"
+
+#: admin/partials/test-page.php:29
+msgid "Send to email, notify in Telegram"
+msgstr "Отправить на почту, уведомить в Telegram"
+
+#: admin/partials/test-page.php:33
+msgid "Email Sender"
+msgstr "Отправитель электронной почты"
+
+#: admin/partials/test-page.php:38
+msgid "Telegram Status"
+msgstr "Статус телеграммы"
+
+#: admin/partials/test-page.php:40
+msgid "Configured"
+msgstr "Настроен"
+
+#: admin/partials/test-page.php:42
+msgid "Not configured"
+msgstr "Не настроено"
+
+#: admin/partials/test-page.php:47
+msgid "Edit Settings"
+msgstr "Изменить настройки"
+
+#: admin/partials/test-page.php:53
+msgid "Quick Test"
+msgstr "Быстрый тест"
+
+#: admin/partials/test-page.php:54
+msgid "Send a test notification with current settings"
+msgstr "Отправить тестовое уведомление с текущими настройками"
+
+#: admin/partials/test-page.php:58
+msgid "Test Mode: Both channels"
+msgstr "Тестовый режим: Оба канала"
+
+#: admin/partials/test-page.php:60
+msgid "Test Mode: Email + Telegram notification"
+msgstr "Тестовый режим: электронная почта + уведомление в Telegram"
+
+#: admin/partials/test-page.php:68
+msgid "Advanced Testing"
+msgstr "Расширенное тестирование"
+
+#: admin/partials/test-page.php:73
+msgid "Test Mode"
+msgstr "Тестовый режим"
+
+#: admin/partials/test-page.php:76 admin/partials/test-page.php:194
+msgid "Email only"
+msgstr "Только электронная почта"
+
+#: admin/partials/test-page.php:84
+msgid "Test notification from Lakend Notifier"
+msgstr "Тестовое уведомление от Lakend Notifier"
+
+#: admin/partials/test-page.php:94
+msgid "Message"
+msgstr "Сообщение"
+
+#: admin/partials/test-page.php:128
+msgid "Email Recipients"
+msgstr "Получатели электронной почты"
+
+#: admin/partials/test-page.php:132
+msgid "Comma separated emails"
+msgstr "Электронные письма, разделенные запятыми"
+
+#: admin/partials/test-page.php:133
+msgid "If empty, the default recipient from settings will be used"
+msgstr "Если пусто, будет использоваться получатель по умолчанию из настроек"
+
+#: admin/partials/test-page.php:139
+msgid "Notification Type"
+msgstr "Тип уведомления"
+
+#: admin/partials/test-page.php:142
+msgid "Used for logging and channel configuration"
+msgstr "Используется для регистрации и настройки канала"
+
+#: admin/partials/test-page.php:149
+msgid "Run Advanced Test"
+msgstr "Запустить расширенный тест"
+
+#: admin/partials/test-page.php:151
+msgid "Reset to Default"
+msgstr "Сбросить настройки по умолчанию"
+
+#: admin/partials/test-page.php:157
+msgid "Test Results History"
+msgstr "История результатов испытаний"
+
+#: admin/partials/test-page.php:166
+msgid "Refresh History"
+msgstr "Обновить историю"
+
+#: admin/partials/test-page.php:176
+msgid "Mode"
+msgstr "Режим"
+
+#: admin/partials/test-page.php:179 admin/partials/settings-page.php:32
+msgid "Telegram"
+msgstr "Телеграмм"
+
+#: admin/partials/test-page.php:180 includes/class-core.php:262
+msgid "Status"
+msgstr "Статус"
+
+#: admin/partials/test-page.php:190
+msgid "Both channels"
+msgstr "Оба канала"
+
+#: admin/partials/test-page.php:192
+msgid "Email + notification"
+msgstr "Электронная почта + уведомление"
+
+#: admin/partials/test-page.php:196 admin/partials/test-page.php:77
+msgid "Telegram only"
+msgstr "Nолько телеграмм"
+
+#: admin/partials/test-page.php:203
+msgid "Success"
+msgstr "Успех"
+
+#: admin/partials/test-page.php:206
+msgid "No test results yet. Run your first test!"
+msgstr "Результатов испытаний пока нет.Проведите свой первый тест!"
+
+#: admin/js/admin.js:88
+msgid "Test completed in both channels mode"
+msgstr "Тест завершен в режиме обоих каналов"
+
+#: admin/js/admin.js:90
+msgid "Test completed in email + notification mode"
+msgstr "Тест завершен в режиме электронной почты + уведомления"
+
+#: admin/js/admin.js:100
+msgid "Advanced test completed successfully"
+msgstr "Расширенный тест успешно завершен"
+
+#: admin/js/admin.js:140
+msgid "results"
+msgstr "результаты"
+
+#: admin/js/admin.js:210
+msgid "Loading..."
+msgstr "Загрузка."
+
+#: admin/js/admin.js:229
+msgid "Error loading history"
+msgstr "Ошибка загрузки истории"
