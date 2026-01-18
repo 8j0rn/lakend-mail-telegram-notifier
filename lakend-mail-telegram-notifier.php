@@ -3,7 +3,7 @@
  * Plugin Name:  Lakend Mail-Telegram Notifier
  * Plugin URI:   https://lakend.ru/
  * Description:  Централизованная система уведомлений с поддержкой Email, Telegram и других каналов. Заменяет стандартные методы отправки.
- * Version:      1.2.1
+ * Version:      1.2.2
  * Author:       8j0rn
  * Author URI:   https://lakend.ru/
  * License:      GPL v2 or later
